@@ -16,7 +16,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
 # Inherit some common AOSiP stuff
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration for bullhead
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
@@ -26,7 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 DEVICE_MAINTAINERS="Anirudh Gupta"
 
 # Override AOSP build properties
-PRODUCT_NAME := aosip_bullhead
+PRODUCT_NAME := potato_bullhead
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := bullhead
 PRODUCT_MODEL := Nexus 5X
