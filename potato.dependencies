@@ -1,0 +1,17 @@
+[
+ {
+   "repository": "AOSiP-Devices/kernel_lge_bullhead",
+   "target_path": "kernel/lge/bullhead",
+   "branch": "pie"
+ },
+ {
+   "repository": "PotatoDevices/device_lge_bullhead-vendorimage",
+   "target_path": "device/lge/bullhead-vendorimage",
+   "branch": "baked-release"
+ },
+ {
+   "repository": "PotatoDevices/vendor_lge",
+   "target_path": "vendor/lge",
+   "branch": "baked-release"
+ }
+]
